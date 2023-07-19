@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+}
+
+header {
+	text-align: center;
+}
+
+h2, h1 {
+  color: darkblue;
+}
+
+.food-category {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+}
+
+#dishes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dish {
+  text-align: center;
+}
+
+.dish img {
+  width: 200px;
+	height: 200px;
+	object-fit: contain;
+  border-radius: 20%;
+	border: 2px solid black;
+}
+
+.dish p {
+  font-size: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: darkgrey;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 100px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: slateblue;
+}
